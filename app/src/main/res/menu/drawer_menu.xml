@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_main_id">
+        <item
+            android:title="@string/drawer_menu_home"
+            android:checked="true"
+            android:id="@+id/nav_item_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            />
+        <item
+            android:title="@string/drawer_menu_tracking"
+            android:checked="true"
+            android:id="@+id/nav_item_tracking"
+            android:icon="@drawable/ic_person_pin_circle_black_24dp"
+            />
+        <item
+            android:title="@string/drawer_menu_chat"
+            android:checked="true"
+            android:id="@+id/nav_item_chat"
+            android:icon="@drawable/ic_textsms_black_24dp"
+            />
+        <item
+            android:title="@string/drawer_menu_triggers"
+            android:checked="true"
+            android:id="@+id/nav_item_triggers"
+            android:icon="@drawable/ic_report_black_24dp"
+            />
+
+
+    </group>
+
+    <group
+        android:id="@+id/group_logout_id"
+        android:checkableBehavior="none">
+        <item
+            android:title="@string/drawer_menu_logout"
+            android:id="@+id/nav_item_logout"
+            android:icon="@drawable/ic_person_black_24dp"/>
+
+
+    </group>
+
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/options_menu_settings"
+        android:id="@+id/action_settings"
+        app:showAsAction="never"
+        />
+    <group
+        android:id="@+id/group_settings_id"
+        >
+
+    <item
+        android:title="@string/drawer_menu_help"
+        android:id="@+id/nav_item_help"
+        android:checked="false"
+        android:icon="@drawable/ic_help_black_24dp"/>
+
+    <item
+        android:title="@string/drawer_menu_feedback"
+        android:id="@+id/nav_item_feedback"
+        android:checked="false"
+        android:icon="@drawable/ic_feedback_black_24dp"/>
+
+    <item
+        android:title="@string/drawer_menu_report_bug"
+        android:checked="false"
+        android:id="@+id/nav_item_bug"
+        android:icon="@drawable/ic_bug_report_black_24dp"
+        />
+    </group>
+</menu>
